@@ -1,0 +1,16 @@
+To clone remote (git hub) repository to your local machine 
+command; git clone <URL>
+git clone https://github.com/mahendrakr/jlpbatch5.git
+
+How to push code from local machine to remote machine
+answer=make sure git is configured in your machine 
+assume git is configured
+step 1 go to project location 
+C:\Users\K L Bopche\jlpbatch5\java8
+step 2  right click and select git gui
+
+
+how to configured git
+answer=
+git config --global user.email "mahendrakumar7028@gmail.com"
+git config --global user.name "mahendrakr"
