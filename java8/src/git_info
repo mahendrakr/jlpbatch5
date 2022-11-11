@@ -19,3 +19,11 @@ how to configured git
 answer=
 git config --global user.email "mahendrakumar7028@gmail.com"
 git config --global user.name "mahendrakr"
+
+
+
+git pull(to fetch latest changes of remote repo to local repo)
+git checkout(to revert the changes)
+git commit(to send the file to staging area)
+git push(to send the file from staging area to repositary or from local repositary to remote repositary)
+note=git clone should execute only one time but other can execute many times

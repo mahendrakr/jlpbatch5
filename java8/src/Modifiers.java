@@ -20,5 +20,5 @@
  */
 public strictfp abstract class Modifiers {
 	int age;
-	public transient void m1() {}
+	public strictfp void m1() {}
 }
