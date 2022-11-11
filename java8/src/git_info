@@ -8,7 +8,12 @@ assume git is configured
 step 1 go to project location 
 C:\Users\K L Bopche\jlpbatch5\java8
 step 2  right click and select git gui
-
+step 3  click on file icon from unstageing area
+step 4  write commit message in commit box 
+step5   click commit button 
+step 6  click on push button 
+step 7   again click on  push button 
+step 8   first time only authenticate user
 
 how to configured git
 answer=
