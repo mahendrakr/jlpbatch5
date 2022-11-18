@@ -1,0 +1,9 @@
+compiler activity
+1.compiler read the source file.
+2.Check the syntax line by line from top to bottom.
+3.if there is no syntax error then compiler check any constructor is there or not, 
+  if constructor is not available then compiler insert default constructor.
+  and generate .class file
+4.if there are syntax errors then compiler will not generate .class file and display the
+  errors on the console.
+  
