@@ -9,7 +9,7 @@ int age=19;
 boolean isMarried=false;
 long phoneNo=8839671982L;
 Address address= new Address();
-
+College college= new College();
 
 
 }

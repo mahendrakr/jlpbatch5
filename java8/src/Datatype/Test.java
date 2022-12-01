@@ -16,6 +16,11 @@ System.out.println(address.city);
 System.out.println(address.pinCode);
 System.out.println(address.state);
 System.out.println(address.postOffice);
+College c=s.college;
+System.out.println(c.city);
+System.out.println(c.id);
+System.out.println(c.name);
+
 
 }
 
