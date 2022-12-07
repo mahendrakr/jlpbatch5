@@ -1,8 +1,8 @@
 
 public class Test{
-  int a;
+  int a
   int b;
-  int c;
+  int c
   int age;
 }
 class A{}

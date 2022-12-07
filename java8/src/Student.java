@@ -7,8 +7,8 @@ public class Student {
 	public static String branch="CS";
 	public String collegeName="LNCT";
 	public static int YearOfAdmission=2021;
-	public static int Phone=1234567890;
-	public int dob=12/12/2002;
+	public static long Phone=1234567890L;
+	
 	
 	
 	public static void main(String[] args) { 
@@ -23,7 +23,6 @@ public class Student {
 		System.out.println(s.age);
 		System.out.println(s.collegeName);
 		System.out.println(s.studentId);
-		System.out.println(s.dob);
 		
 		}
 	}

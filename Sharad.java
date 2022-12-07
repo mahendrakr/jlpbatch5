@@ -1,5 +1,5 @@
 
-public class Test{
+class Test{
   int a;
   int b;
   int c;
