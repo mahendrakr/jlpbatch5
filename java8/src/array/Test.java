@@ -7,6 +7,8 @@ public class Test {
 		int max2 = max.getMax(arr);
 		System.out.println(max2);
 		System.out.println(max.getSecondMax(arr));
+		SecondMin min=new SecondMin();
+		System.out.println(min.getSecondMin(arr));
 	}
 
 }
