@@ -1,4 +1,4 @@
-package array;
+ package array;
 
 public class EnhanceForLoop {
 	public static void main(String[] args) {

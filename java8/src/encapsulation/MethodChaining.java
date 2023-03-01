@@ -16,7 +16,7 @@ public class MethodChaining {
 	}
 	public void m4() {
 		System.out.println("m4");
-		m1();
+		
 	}
 	 public static void main(String[] args) {
 		 MethodChaining mc= new MethodChaining();
