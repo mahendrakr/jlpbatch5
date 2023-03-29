@@ -1,0 +1,27 @@
+Extends
+-------
+class extends class(allowed)note:only one class can be extended
+interface extends interface(allowed)note:multiple interfaces can be extended
+interface extends class(not allowed)
+class extends interface(not allowed)
+
+Implements
+----------
+
+class implements interface(allowed)note:multiple interfaces can be implemented
+interface implements interface(not allowed)
+interface implements class(not allowed)
+class implements class(not allowed)
+
+
+combination of extends and implements
+-------------------------------------
+
+extends followed by implements(first extends then implements)
+
+
+interface
+---------
+1.you cannot create object of an interface(in other word you can not instanciate an interface)
+2.interface does not have constructor
+3.you can define a variable but compiler will insert public static final keywords to it.
