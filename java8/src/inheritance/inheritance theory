@@ -23,5 +23,9 @@ extends followed by implements(first extends then implements)
 interface
 ---------
 1.you cannot create object of an interface(in other word you can not instanciate an interface)
-2.interface does not have constructor
+2.interface does not have a constructor
 3.you can define a variable but compiler will insert public static final keywords to it.
+4.upto java 7 only abstract methods are allowed.by default compiler will insert public abstract keyword to the method
+5.from java 8 onwards default and static methods are allowed
+6.you can not define static and instance block
+7.you can not define instance method
