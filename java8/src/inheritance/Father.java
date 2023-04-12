@@ -7,5 +7,7 @@ public class Father {
 	int m2(int a,String b) {
 		return 20;
 	}
-
+ public Object m3() {
+	 return null;
+ }
 }

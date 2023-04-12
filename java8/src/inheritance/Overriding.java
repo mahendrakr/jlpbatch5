@@ -7,7 +7,7 @@ package inheritance;
  *   concept is known as co-variant return type).
  * 4.you can not reduce the scope of visibility(public>protected>default>private)but you can
  *   increase
- * 5.you can not override private method,final method and static method
+ * 5.you can not override private method,final method and static method(parent class method)
  * Q.1 why you can not override private method?
  * ans:because it is visible within same class only
  * Q.2 why you can not override final method?
