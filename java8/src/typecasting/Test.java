@@ -8,6 +8,6 @@ public class Test {
        D d=(D)a;
        d.m4();
      B b1=new C();
- //D d1=(D)b1;
+ D d1=(D)b1;
 }
 }
