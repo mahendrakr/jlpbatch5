@@ -3,12 +3,12 @@ package exception;
 public class ExceptionHandlingDemo {
 	public static double division(int a,int b) {
 		double result=0;
-		try{
+	//	try{
 			 result=a/b;
-		}
-		catch(ArithmeticException e) {
-			System.out.println("wrong input\n denominator cannot be zero");
-		}
+	//	}
+	//	catch(ArithmeticException e) {
+		//	System.out.println("wrong input\n denominator cannot be zero");
+	//	}
 		return result;
 		
 	}
