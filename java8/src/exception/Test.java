@@ -18,15 +18,16 @@ public class Test {
 		}
 	System.out.println("after division from m1");	
 	}
-	public void m2(int a,int b) {
+	public void m2(int a,int b) throws Exception {
    System.out.println("before division");
 			int r=a/b;
 			count++;
-	System.out.println("after division");			
+			 throw new Exception();
+//	System.out.println("after division");			
 	}
 	  
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		Test t=new Test();
 		t.m1(10,0);
 		t.m2(10,0);
